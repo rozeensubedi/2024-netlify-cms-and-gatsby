@@ -14,7 +14,7 @@ collections:
     folder: "content/travel-packages"
     create: true
     slug: "{{slug}}"
-    field:
+    fields:
       - { label: "Location", name: "location", widget: "string"}
       - { label: "Travel Dates", name: "travel-dates", widget: "string"}
       - { label: "Featured image", name: "featured-image", widget: image}
