@@ -8,7 +8,7 @@ public_folder: ../../static/images/
 
 
 collections:
-  - name: "travel-prackages"
+  - name: "travel-packages"
     preview: false
     label: "Travel Packages"
     folder: "content/travel-packages"
@@ -17,5 +17,5 @@ collections:
     field:
       - { label: "Location", name: "location", widget: "string"}
       - { label: "Travel Dates", name: "travel-dates", widget: "string"}
-      - { label: "Featured Image", name: "featured-image", widgets: image}
+      - { label: "Featured Image", name: "featured-image", widgets: "image"}
       - { label: "Body", name: "body", widgets: "markdown"}
