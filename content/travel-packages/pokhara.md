@@ -1,5 +1,5 @@
 ---
-location: Pokhara
+title: Pokhara
 travel-dates: Augest 21, 2024 - Augest 25, 2024
 featured-image: ../../static/images/pokhara.jpg
 

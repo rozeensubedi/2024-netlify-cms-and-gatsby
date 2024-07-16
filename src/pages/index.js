@@ -24,12 +24,12 @@ const IndexPage = ({ data }) => (
             <Card>
               <GatsbyImage
                          image={getImage(node.frontmatter.featured_image)}
-                            alt={ node.frontmatter.location}
+                            alt={ node.frontmatter.title}
                             className="card-img-top"
               />
               <Card.Body>
                 <Card.Title>
-                  {node.frontmatter.location}
+                  {node.frontmatter.title}
 
                 </Card.Title>
                 <p>
@@ -71,7 +71,7 @@ export const query = graphql`
       node {
         id
         frontmatter {
-          location
+          title
           travel_dates
           featured_image {
             childImageSharp {

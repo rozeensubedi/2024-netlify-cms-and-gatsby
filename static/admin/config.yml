@@ -14,13 +14,13 @@ collections:
     slug: "{{slug}}"
     fields:
       - label: "Location"
-        name: "location"
+        name: "title"
         widget: "string"
       - label: "Travel Dates"
         name: "travel-dates"
         widget: "string"
       - label: "Featured Image"
-      
+
         name: "featured-image"
         widget: "image"
       - label: "Body"

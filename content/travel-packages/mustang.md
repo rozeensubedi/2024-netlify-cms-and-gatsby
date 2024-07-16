@@ -1,5 +1,5 @@
 ---
-location: Mustang
+title: Mustang
 travel-dates: Augest 10, 2024 - Augest 20, 2024
 featured-image: ../../static/images/mustang.jpg
 
